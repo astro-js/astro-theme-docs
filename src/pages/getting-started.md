@@ -1,8 +1,7 @@
 ---
+title: Getting Started
 layout: ../layouts/Main.astro
 ---
-
-# Getting Started
 
 This template already provides your pages with a side bar navigation (on the left) for your pages, and a content navigation (on the right) for your sections.
 
@@ -14,10 +13,10 @@ The page navigation, through the side bar on the left, needs to be manually upda
 export const sidebar = [
   {
     text: 'Introduction',
-    link: '/',
+    link: '', // No leading slash needed, so this links to the homepage
     children: [
-      { text: 'Getting Started', link: '/getting-started' },
-      { text: 'Example', link: '/example' },
+      { text: 'Getting Started', link: 'getting-started' },
+      { text: 'Example', link: 'example' },
     ],
   },
 ];
