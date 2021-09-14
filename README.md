@@ -4,6 +4,8 @@
 npm init astro -- --template docs
 ```
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/astro-js/astro-theme-docs)&nbsp;&nbsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/astro-js/astro-theme-docs)
+
 ## Features
 
 - ✅ **Full Markdown support**
