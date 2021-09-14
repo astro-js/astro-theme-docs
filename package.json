@@ -1,6 +1,4 @@
 {
-  "name": "@example/docs",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -12,17 +10,6 @@
     "@docsearch/react": "^1.0.0-alpha.27"
   },
   "devDependencies": {
-    "astro": "^0.20.5",
-    "@snowpack/plugin-dotenv": "^2.1.0"
-  },
-  "snowpack": {
-    "alias": {
-      "components": "./src/components",
-      "~": "./src"
-    },
-    "plugins": [
-      "@snowpack/plugin-dotenv"
-    ],
-    "workspaceRoot": "../.."
+    "astro": "^0.20.5"
   }
 }
